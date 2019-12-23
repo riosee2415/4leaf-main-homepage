@@ -1,0 +1,51 @@
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Bangers", cursive;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.box .box__top {
+  align-self: flex-start;
+  justify-self: flex-start;
+  padding: 30px;
+}
+
+.logoArea {
+}
+
+.box .box__center {
+  justify-self: flex-start;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.box .box__bottom {
+  align-self: flex-end;
+}
+
+.box .box__top .topTxt {
+  margin-top: 8px;
+}
+
+.box .box__top .box__top__logo {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+@keyframes logoHover {
+  33% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -30px;
+  }
+}
+
+.box .box__top .box__top__logo:hover {
+  animation: logoHover 0.4s forwards;
+}

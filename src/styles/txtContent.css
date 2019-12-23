@@ -1,0 +1,33 @@
+.txtBox {
+  margin-bottom: 20px;
+  margin-right: 55px;
+}
+
+.txtBox .txtBox__title {
+  border-bottom: 2px solid rgba(255, 222, 60, 0.4);
+  margin-bottom: 5px;
+  font-family: "Prompt", sans-serif;
+}
+
+.txtBox .txtBox__content {
+  display: hidden;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+@keyframes txtHover {
+  from {
+  }
+  to {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
+
+.txtBox .txtBox__content:hover {
+  animation: txtHover 0.4s forwards;
+}

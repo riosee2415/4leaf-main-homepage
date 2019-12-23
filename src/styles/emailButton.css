@@ -1,0 +1,20 @@
+.eBtn {
+  margin-top: 30px;
+  background: #fad390;
+  color: #3d3d3d;
+  border: none;
+  position: relative;
+  height: 20px;
+  font-size: 0.8em;
+  padding: 0 1.3em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Anton", sans-serif;
+}
+
+.eBtn:hover {
+  background: #fff;
+  color: #3d3d3d;
+}
