@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/txtContent.css";
 
-const TxtContent = ({ title, content }) => {
+const TxtContent = ({ title = null, content }) => {
   return (
     <>
       <div className="txtBox">

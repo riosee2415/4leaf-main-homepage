@@ -1,6 +1,7 @@
 .txtBox {
   margin-bottom: 20px;
   margin-right: 55px;
+  animation: startCreator 2s forwards;
 }
 
 .txtBox .txtBox__title {

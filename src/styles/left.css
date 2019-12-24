@@ -1,3 +1,15 @@
+@keyframes startCreator {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
 .box {
   width: 100%;
   display: flex;
@@ -29,11 +41,13 @@
 
 .box .box__top .topTxt {
   margin-top: 8px;
+  animation: startCreator 1s forwards;
 }
 
 .box .box__top .box__top__logo {
   margin-top: 40px;
   cursor: pointer;
+  animation: startCreator 1.5s forwards;
 }
 
 @keyframes logoHover {
@@ -47,5 +61,4 @@
 }
 
 .box .box__top .box__top__logo:hover {
-  animation: logoHover 0.4s forwards;
 }
