@@ -13,8 +13,8 @@ const About = ({ location, match }) => {
         <ProfileBox />
       </div>
 
-      <div className="designArea">
-        <div className="designArea__title">DESIGNER</div>
+      <div className="traineeArea">
+        <div className="traineeArea__title">TRAINEE</div>
         <ProfileBox />
       </div>
     </div>

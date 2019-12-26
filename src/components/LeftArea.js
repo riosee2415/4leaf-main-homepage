@@ -1,15 +1,13 @@
 import React from "react";
 import "../styles/left.css";
 import logo from "../assets/logo/logowhite200x77.png";
-import EmailButton from "../components/EmailButton";
 import TxtContent from "../components/TxtContent";
 
 const LeftArea = () => {
   const txtData = [
     {
       title: "WEB SITE",
-      content:
-        "반응형 디자인을 적용하여 다양한 기업의 홈페이지 및 일반 웹페이지 그리고 쇼핑몰을 개발하여 제공합니다."
+      content: "반응형 | 다양한 기업, 일반 홈페이지 | 쇼핑몰"
     },
     {
       title: "MOBILE APPLICATION",
@@ -32,26 +30,15 @@ const LeftArea = () => {
     <>
       <div className="box">
         <div className="box__top">
-          <div>
-            <div className="topTxt">WEB</div>
-            <div className="topTxt">MOBILE</div>
-            <div className="topTxt">CROSS APP</div>
-            <div className="topTxt">PUBLISHING</div>
-            <div className="topTxt">SOCIAL FLATFORM</div>
-            <div className="topTxt">SYSTEM SOFTWARE</div>
-          </div>
-
           <div className="logoArea">
             <img className="box__top__logo" src={logo} alt="4LEAF LOGO" />
           </div>
         </div>
 
         <div className="box__center">
-          {txtData.map(data => (
-            <TxtContent title={data.title} content={data.content} />
+          {txtData.map((data, index) => (
+            <TxtContent key={index} title={data.title} />
           ))}
-
-          <EmailButton />
         </div>
       </div>
     </>

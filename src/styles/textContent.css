@@ -1,0 +1,30 @@
+.requestContent {
+  animation: creator 1s forwards;
+}
+
+.contentArea {
+  margin: 30px;
+  width: 74%;
+  padding: 10px 20px;
+  height: 200px;
+  font-size: 14px;
+  font-family: "Prompt", sans-serif;
+  outline: none;
+  font-size: 14px;
+  font-family: "Prompt", sans-serif;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #fff;
+  border-width: 2px;
+  color: #fff;
+}
+
+.contentArea:focus {
+  animation: moving 1.5s infinite;
+}
+
+.contentArea:focus::-webkit-input-placeholder {
+  color: #fff;
+}

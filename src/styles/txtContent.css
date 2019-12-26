@@ -1,7 +1,16 @@
+@keyframes txtCreator {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .txtBox {
   margin-bottom: 20px;
   margin-right: 55px;
-  animation: startCreator 2s forwards;
+  animation: txtCreator 2s forwards;
 }
 
 .txtBox .txtBox__title {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/textInput.css";
 
-const TextInput = ({ subject = null, ph = null }) => {
+const TextInput = ({ subject = null, ph = null, type = "text" }) => {
   return (
     <>
       <div className="inputBox">

@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/emailButton.css";
 
-const EmailButton = () => {
+const EmailButton = ({ action }) => {
   return (
     <>
-      <button className="eBtn">Online Contact</button>
+      <button className="eBtn" onClick={() => action}>
+        Online Contact
+      </button>
     </>
   );
 };
