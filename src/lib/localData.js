@@ -1,7 +1,11 @@
 import project01 from "../assets/img/project01.jpg";
-
 import project02 from "../assets/img/project02.jpg";
 import project03 from "../assets/img/project03.jpg";
+import member01 from "../assets/img/member01.png";
+import member02 from "../assets/img/member02.png";
+import member03 from "../assets/img/member03.png";
+import member04 from "../assets/img/member04.png";
+import member05 from "../assets/img/member05.png";
 
 const projectList = [
   {
@@ -42,4 +46,56 @@ const projectList = [
   }
 ];
 
-export { projectList };
+const memberList = [
+  {
+    pic: member01,
+    koreaName: "윤상호",
+    englishName: "KIM HAN JU",
+    email: "4leaf.ysh@gmail.com",
+    birth: "971015",
+    gender: "남",
+    remarks: "특이사항",
+    careerList: ["경력1", "경력2"]
+  },
+  {
+    pic: member02,
+    koreaName: "이동욱",
+    englishName: "KIM HAN JU",
+    email: "4leaf.khj@gmail.com",
+    birth: "971015",
+    gender: "남",
+    remarks: "특이사항",
+    careerList: ["경력1", "경력2"]
+  },
+  {
+    pic: member03,
+    koreaName: "송성민",
+    englishName: "KIM HAN JU",
+    email: "4leaf.khj@gmail.com",
+    birth: "971015",
+    gender: "여",
+    remarks: "특이사항",
+    careerList: ["경력1", "경력2"]
+  },
+  {
+    pic: member04,
+    koreaName: "노재민",
+    englishName: "KIM HAN JU",
+    email: "4leaf.khj@gmail.com",
+    birth: "971015",
+    gender: "남",
+    remarks: "특이사항",
+    careerList: ["경력1", "경력2"]
+  },
+  {
+    pic: member05,
+    koreaName: "김한주",
+    englishName: "KIM HAN JU",
+    email: "4leaf.khj@gmail.com",
+    birth: "971015",
+    gender: "여",
+    remarks: "특이사항",
+    careerList: ["경력1", "경력2"]
+  }
+];
+export { projectList, memberList };
