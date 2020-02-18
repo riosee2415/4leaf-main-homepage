@@ -43,7 +43,7 @@ const Menu = () => {
             exact
             to="/Contect"
           >
-            <span>CONTECT</span>
+            <span>CONTACT</span>
           </NavLink>
         </li>
       </ul>
