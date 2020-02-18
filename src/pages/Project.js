@@ -12,9 +12,10 @@ const Project = () => {
     <>
       <div className="projects">
         <ProjectBox
+          pic={projectList[page].pic}
           title={projectList[page].projectName}
           content={projectList[page].desciprtion}
-          content2={projectList[page].desciprtion3}
+          content2={projectList[page].desciprtion2}
           content3={projectList[page].desciprtion3}
           content4={projectList[page].desciprtion4}
           appName={projectList[page].softwareName}

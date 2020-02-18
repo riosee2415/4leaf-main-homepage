@@ -9,14 +9,17 @@
   background-color: rgba(0, 0, 0, 0.3);
   padding-left: 20px;
   overflow: hidden;
+  animation: txtCreator 2s forwards;
 }
 
 .projects__box2 {
+  animation: txtCreator 2s forwards;
   display: flex;
   flex-direction: column;
 }
 
 .projects .projects__box2 {
+  animation: txtCreator 2s forwards;
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -32,7 +35,7 @@
 
 .box .box__img {
   opacity: 1;
-  border-radius: 50%;
+  border-radius: 20%;
   padding: 20px;
 }
 

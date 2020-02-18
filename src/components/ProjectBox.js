@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import "../styles/project.css";
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import home02 from "../assets/img/home02.jpg";
 
 const ProjectBox = ({
+  pic,
   title,
   appName,
   content,
@@ -15,7 +13,7 @@ const ProjectBox = ({
   return (
     <>
       <div className="projects__box box">
-        <img className="box__img" src={home02} width="200px" height="200px" />
+        <img className="box__img" src={pic} width="240px" height="200px" />
         <div className="box__title">{appName}</div>
         <div className="box__title">{title}</div>
       </div>
