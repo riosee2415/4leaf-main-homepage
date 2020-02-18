@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/left.css";
-import logo from "../assets/logo/logowhite200x77.png";
+import logo from "../assets/logo/4leaflogo-dark.png";
 import TxtContent from "../components/TxtContent";
 
 const LeftArea = () => {

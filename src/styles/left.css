@@ -45,6 +45,8 @@
 }
 
 .box .box__top .box__top__logo {
+  height: 60px;
+  width: auto;
   margin-top: 40px;
   cursor: pointer;
   animation: startCreator 1.5s forwards;
