@@ -41,7 +41,7 @@ const Menu = () => {
             className="link"
             activeClassName={"menu__active"}
             exact
-            to="/Contect"
+            to="/Contact"
           >
             <span>CONTACT</span>
           </NavLink>

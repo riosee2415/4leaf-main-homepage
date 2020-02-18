@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Home, About, Project, Contect } from "pages";
+import { Home, About, Project, Contact } from "pages";
 import { Route } from "react-router-dom";
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
         </Switch> */}
         <Route exact path="/About" component={About} />
         <Route exact path="/Project" component={Project} />
-        <Route exact path="/Contect" component={Contect} />
+        <Route exact path="/Contact" component={Contact} />
       </>
     );
   }
