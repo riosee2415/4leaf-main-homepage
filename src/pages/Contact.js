@@ -13,7 +13,7 @@ const Contect = () => {
       <TxtContent content="📕 편리하게 문의내용을 작성하여 메일을 전송하세요." />
       <TxtContent content="📕 웹사이트 | 웹앱 | 모바일 어플리케이션 | 유지보수 | 협업요청 | 견적요청 | 개발교육 등" />
 
-      <form action="/Contect" id="frm1"></form>
+      <form action="/Contact" id="frm1"></form>
 
       <div className="inputBox">
         <div className="inputBox__text">
