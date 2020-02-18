@@ -43,13 +43,23 @@
   font-size: 20px;
   margin-left: 50px;
   font-family: "Prompt", sans-serif;
+  text-shadow: 2px 2px 6px rgba(1, 1, 1);
 }
+
+.projects__box .box__title2 {
+  font-size: 14px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: "Prompt", sans-serif;
+}
+
 .projects__box2 .box__content {
   margin-top: 10px;
   padding: 10px;
   font-size: 16px;
   font-family: "Prompt", sans-serif;
   color: rgba(255, 255, 255, 0.9);
+  text-shadow: 2px 2px 6px rgba(1, 1, 1);
 }
 
 .projects__box2 .box__content:first-child {

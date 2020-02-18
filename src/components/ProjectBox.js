@@ -14,8 +14,10 @@ const ProjectBox = ({
     <>
       <div className="projects__box box">
         <img className="box__img" src={pic} width="240px" height="200px" />
-        <div className="box__title">{appName}</div>
-        <div className="box__title">{title}</div>
+        <div>
+          <div className="box__title">{appName}</div>
+          <div className="box__title2">{title}</div>
+        </div>
       </div>
 
       <div className="projects__box2">

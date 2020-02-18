@@ -6,8 +6,9 @@ import project03 from "../assets/img/project03.jpg";
 const projectList = [
   {
     pic: project01,
-    projectName: "",
     softwareName: "고퀄리티 반응형 웹사이트 개발",
+    projectName:
+      "각종 웹 클라이언트 및 해상도, 데이터 통신 기기에서 완벽 호환 되는 UX/UI를 활용한 반응형 웹사이트",
     desciprtion:
       "각종 웹클라이언트와 해상도에서 지원하는 반응형 웹사이트를 제공합니다.",
     desciprtion2:
@@ -18,8 +19,9 @@ const projectList = [
   },
   {
     pic: project02,
-    projectName: "",
-    softwareName: "ANDROID & IOS 모바일 어플리케이션",
+    softwareName: "ANDROID & IOS 크로스 플렛폼 개발",
+    projectName:
+      "안드로이드와 아이폰을 동시개발하여 비용과 시간을 단축, 커스터마이징 어플리케이션",
     desciprtion:
       "만들어져 있는 양산형 앱이 아닌 주문형 고퀄리티 어플리케이션을 제공합니다.",
     desciprtion2: "subscribe를 통하여 살아 움직이는 어플리케이션을 제공합니다.",
@@ -28,8 +30,9 @@ const projectList = [
   },
   {
     pic: project03,
-    projectName: "",
     softwareName: "ERP | MES | 그룹웨어 등 전문 시스템 개발",
+    projectName:
+      "실무 사용률 극대화, 안정된 데이터베이스의 활용과 인공지능을 통해 업무효율 증대 효과",
     desciprtion:
       "ERP, MES , 그룹웨어 등 전사적 관리 시스템을 모듈화 하여 필요한 영역을 설계해드립니다.",
     desciprtion2:

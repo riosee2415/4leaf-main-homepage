@@ -4,13 +4,13 @@
   display: flex;
   font-family: "Prompt", sans-serif;
   margin-bottom: 30px;
-  animation: txtCreator 2s forwards;
+  animation: txtCreator 1s forwards;
 }
 
 .homeBox .homeBox__leaf-icon {
   font-size: 20px;
   color: rgb(102, 102, 102);
-  animation: txtCreator 2s forwards;
+  animation: txtCreator 1s forwards;
 }
 
 .homeBox .homeBox__text {
@@ -19,7 +19,7 @@
   vertical-align: middle;
   vertical-align: middle;
   color: rgb(102, 102, 102);
-  animation: txtCreator 2s forwards;
+  animation: txtCreator 1s forwards;
 }
 
 .homeSubject {
@@ -35,13 +35,13 @@
   backdrop-filter: blur(10px);
   /* border-top-left-radius: 0px;
   border-bottom-right-radius: 0px; */
-  animation: txtCreator 2s forwards;
+  animation: txtCreator 1s forwards;
 }
 .homeBox2 {
   font-size: 14px;
   color: rgb(102, 102, 102);
   margin-left: 36px;
-  animation: txtCreator 2s forwards;
+  animation: txtCreator 1s forwards;
 }
 
 .homeBox2 .homeBox2__box {
