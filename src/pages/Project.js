@@ -25,18 +25,14 @@ const Project = () => {
       <div className="project-nav">
         <div
           className="project-nav__arrow"
-          onClick={() =>
-            page === 0 ? alert("첫번째 페이지 입니다.") : setPage(page - 1)
-          }
+          onClick={() => (page === 0 ? null : setPage(page - 1))}
         >
           <FontAwesomeIcon icon={faAngleLeft} size="3x" />
         </div>
         <div
           className="project-nav__arrow"
           onClick={() =>
-            page === projectList.length - 1
-              ? alert("마지막 페이지 입니다.")
-              : setPage(page + 1)
+            page === projectList.length - 1 ? null : setPage(page + 1)
           }
         >
           <FontAwesomeIcon icon={faAngleRight} size="3x" />
