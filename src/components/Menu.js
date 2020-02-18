@@ -13,7 +13,7 @@ const Menu = () => {
             exact
             to="/"
           >
-            HOME
+            <span>HOME</span>
           </NavLink>
         </li>
         <li className="menuItems">
@@ -23,7 +23,7 @@ const Menu = () => {
             exact
             to="/About"
           >
-            ABOUT
+            <span>ABOUT</span>
           </NavLink>
         </li>
         <li className="menuItems">
@@ -33,7 +33,7 @@ const Menu = () => {
             exact
             to="/Project"
           >
-            PROJECT
+            <span>OFFER</span>
           </NavLink>
         </li>
         <li className="menuItems">
@@ -43,7 +43,7 @@ const Menu = () => {
             exact
             to="/Contect"
           >
-            CONTECT
+            <span>CONTECT</span>
           </NavLink>
         </li>
       </ul>
