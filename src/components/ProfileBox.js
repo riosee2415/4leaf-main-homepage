@@ -15,9 +15,9 @@ const ProfileBox = ({
 }) => {
   return (
     <>
-      <div className="profile__box box">
+      <div className="profile__box box3">
         <img className="box__img" src={pic} width="240px" height="240px" />
-        <div>
+        <div className="box_info_frame">
           <div className="box__info">{koreaName}</div>
           <div className="box__info">{englishName}</div>
           <div className="box__info">{email}</div>
@@ -27,11 +27,11 @@ const ProfileBox = ({
         </div>
       </div>
 
-      <div className="profile__box2">
+      {/* <div className="profile__box2">
         {careerList.map(career => {
           return <div className="box__content">{career}</div>;
         })}
-      </div>
+      </div> */}
     </>
   );
 };
