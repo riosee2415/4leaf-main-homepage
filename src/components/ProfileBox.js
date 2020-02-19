@@ -16,14 +16,14 @@ const ProfileBox = ({
   return (
     <>
       <div className="profile__box box">
-        <img className="box__img" src={pic} width="240px" height="200px" />
+        <img className="box__img" src={pic} width="240px" height="240px" />
         <div>
-          <div className="box__info1">{koreaName}</div>
-          <div className="box__info2">{englishName}</div>
-          <div className="box__info3">{email}</div>
-          <div className="box__info4">{birth}</div>
-          <div className="box__info5">{gender}</div>
-          <div className="box__info6">{remarks}</div>
+          <div className="box__info">{koreaName}</div>
+          <div className="box__info">{englishName}</div>
+          <div className="box__info">{email}</div>
+          <div className="box__info">{birth}</div>
+          <div className="box__info">{gender}</div>
+          <div className="box__info">{remarks}</div>
         </div>
       </div>
 

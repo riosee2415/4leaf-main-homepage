@@ -50,9 +50,9 @@ const memberList = [
   {
     pic: member01,
     koreaName: "윤상호",
-    englishName: "KIM HAN JU",
+    englishName: "YUN SANG HO",
     email: "4leaf.ysh@gmail.com",
-    birth: "971015",
+    birth: "900224",
     gender: "남",
     remarks: "특이사항",
     careerList: ["경력1", "경력2"]
@@ -60,8 +60,8 @@ const memberList = [
   {
     pic: member02,
     koreaName: "이동욱",
-    englishName: "KIM HAN JU",
-    email: "4leaf.khj@gmail.com",
+    englishName: "LEE DONG UK",
+    email: "4leaf.ldu@gmail.com",
     birth: "971015",
     gender: "남",
     remarks: "특이사항",
@@ -70,20 +70,10 @@ const memberList = [
   {
     pic: member03,
     koreaName: "송성민",
-    englishName: "KIM HAN JU",
-    email: "4leaf.khj@gmail.com",
-    birth: "971015",
+    englishName: "SONG SEONG MIN",
+    email: "4leaf.ssm@gmail.com",
+    birth: "950724",
     gender: "여",
-    remarks: "특이사항",
-    careerList: ["경력1", "경력2"]
-  },
-  {
-    pic: member04,
-    koreaName: "노재민",
-    englishName: "KIM HAN JU",
-    email: "4leaf.khj@gmail.com",
-    birth: "971015",
-    gender: "남",
     remarks: "특이사항",
     careerList: ["경력1", "경력2"]
   },
@@ -94,6 +84,16 @@ const memberList = [
     email: "4leaf.khj@gmail.com",
     birth: "971015",
     gender: "여",
+    remarks: "특이사항",
+    careerList: ["경력1", "경력2"]
+  },
+  {
+    pic: member04,
+    koreaName: "노재민",
+    englishName: "NOH JAE MIN",
+    email: "4leaf.njm@gmail.com",
+    birth: "971128",
+    gender: "남",
     remarks: "특이사항",
     careerList: ["경력1", "경력2"]
   }
