@@ -62,7 +62,7 @@ const memberList = [
     koreaName: "이동욱",
     englishName: "LEE DONG UK",
     email: "4leaf.ldu@gmail.com",
-    birth: "971015",
+    birth: "941225",
     gender: "남",
     remarks: "특이사항",
     careerList: ["경력1", "경력2"]
@@ -78,7 +78,7 @@ const memberList = [
     careerList: ["경력1", "경력2"]
   },
   {
-    pic: member05,
+    pic: member04,
     koreaName: "김한주",
     englishName: "KIM HAN JU",
     email: "4leaf.khj@gmail.com",
@@ -88,7 +88,7 @@ const memberList = [
     careerList: ["경력1", "경력2"]
   },
   {
-    pic: member04,
+    pic: member05,
     koreaName: "노재민",
     englishName: "NOH JAE MIN",
     email: "4leaf.njm@gmail.com",

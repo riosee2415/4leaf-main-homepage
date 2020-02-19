@@ -133,6 +133,7 @@ table {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  overflow-y: scroll;
 }
 
 .publicArea .publicArea__col1 {
