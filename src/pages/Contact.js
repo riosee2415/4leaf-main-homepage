@@ -1,11 +1,11 @@
 import React from "react";
-import TextInput from "../components/TextInput";
 import TxtContent from "../components/TxtContent";
-import TextContent from "../components/TextContent";
 import { confirmAlert } from "react-confirm-alert";
 import "react-confirm-alert/src/react-confirm-alert.css";
+import { firestore } from "../firebase";
 import "../styles/contect.css";
 import "../styles/textContent.css";
+import "../styles/textInput.css";
 
 const Contect = () => {
   return (
@@ -89,7 +89,7 @@ const _sendHandler = () => {
         label: "Yes",
         onClick: () =>
           validation(company.value, mobile.value, email.value, content.value)
-            ? sendMail()
+            ? sendMail(company.value, mobile.value, email.value, content.value)
             : alert(
                 "[실패] 회사명(또는 이름), 핸드폰번호, 이메일주소, 내용 모두 입력해주세요."
               )
@@ -115,8 +115,32 @@ const validation = (company, mobile, email, content) => {
   return true;
 };
 
-const sendMail = (company, mobile, email, content) => {
-  alert("[전송 성공] 감사합니다. 빠른 시일 내에 연락드리겠습니다.");
+const sendMail = async (company, mobile, clientEmail, content) => {
+  const nowDay = new Date();
+
+  const yy = nowDay.getFullYear();
+  const mm = nowDay.getMonth() + 1;
+  const dd = nowDay.getDate();
+
+  const currentDate = `${yy}/${mm}/${dd}`;
+
+  const addData = {
+    company: company,
+    mobile: mobile,
+    clientEmail: clientEmail,
+    content: content,
+    date: currentDate,
+    receipt: 0
+  };
+
+  try {
+    await firestore
+      .collection("work-req")
+      .doc()
+      .set(addData);
+  } catch (error) {
+    console.log(error);
+  }
 
   const frm1 = document.getElementById("frm1");
   frm1.submit();
