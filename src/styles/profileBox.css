@@ -37,3 +37,10 @@
 .pro .backArrow:hover {
   animation: hoverArrow 0.5s forwards;
 }
+
+.box__info {
+  font-size: 16px;
+  margin-bottom: 3px;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(1, 1, 1);
+}

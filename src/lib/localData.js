@@ -53,8 +53,8 @@ const memberList = [
     englishName: "YUN SANG HO",
     email: "4leaf.ysh@gmail.com",
     birth: "900224",
-    gender: "남",
-    remarks: "특이사항",
+    gender: "MALE",
+    remarks: "솔루션개발팀 (원딜러)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -63,8 +63,8 @@ const memberList = [
     englishName: "LEE DONG UK",
     email: "4leaf.ldu@gmail.com",
     birth: "941225",
-    gender: "남",
-    remarks: "특이사항",
+    gender: "MALE",
+    remarks: "정보화사업개발팀 (미드라이너)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -73,8 +73,8 @@ const memberList = [
     englishName: "SONG SEONG MIN",
     email: "4leaf.ssm@gmail.com",
     birth: "950724",
-    gender: "여",
-    remarks: "특이사항",
+    gender: "FEMALE",
+    remarks: "정보화사업개발팀 (탑라이너)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -83,8 +83,8 @@ const memberList = [
     englishName: "KIM HAN JU",
     email: "4leaf.khj@gmail.com",
     birth: "971015",
-    gender: "여",
-    remarks: "특이사항",
+    gender: "FEMALE",
+    remarks: "솔루션개발팀 (서포터)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -93,8 +93,8 @@ const memberList = [
     englishName: "NOH JAE MIN",
     email: "4leaf.njm@gmail.com",
     birth: "971128",
-    gender: "남",
-    remarks: "특이사항",
+    gender: "MALE",
+    remarks: "솔루션개발팀 (정글러)",
     careerList: ["경력1", "경력2"]
   }
 ];

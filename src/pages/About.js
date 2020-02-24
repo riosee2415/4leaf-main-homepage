@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProfileBox from "../components/ProfileBox";
 import "../styles/about.css";
+import cooper from "../assets/img/cooper.png";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { memberList } from "../lib/localData";
@@ -38,6 +39,10 @@ const About = () => {
             <FontAwesomeIcon icon={faAngleRight} size="3x" />
           </div>
         </div>
+      </div>
+
+      <div className="cooperArea">
+        <img src={cooper} />
       </div>
     </div>
   );

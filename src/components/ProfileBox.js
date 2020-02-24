@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/profileBox.css";
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProfileBox = ({
   pic,
