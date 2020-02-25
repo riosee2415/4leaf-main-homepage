@@ -17,27 +17,26 @@
   border-bottom: 2px solid rgba(255, 222, 60, 0.4);
   margin-bottom: 5px;
   font-family: "Prompt", sans-serif;
+  cursor: pointer;
 }
 
 .txtBox .txtBox__content {
-  display: hidden;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   font-family: "Prompt", sans-serif;
   font-size: 13px;
-  cursor: pointer;
+  color: #fff;
+  line-height: 160%;
+  text-shadow: 2px 2px 6px rgba(1, 1, 1);
+  animation: txtAnimation 1s forwards;
 }
 
-@keyframes txtHover {
+@keyframes txtAnimation {
   from {
+    opacity: 0;
   }
   to {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 1;
   }
-}
-
-.txtBox .txtBox__content:hover {
-  animation: txtHover 0.4s forwards;
 }

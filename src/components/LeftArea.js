@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/left.css";
 import logo from "../assets/logo/4leaflogo-dark.png";
 import TxtContent from "../components/TxtContent";
@@ -17,7 +17,7 @@ const LeftArea = () => {
     {
       title: "DEVELOPER",
       content:
-        "제한된 프로그래밍만 해온 개발자가 아닌, 풍부한 경험과 검증된 개발경험으로 프로페셔널한 개발자들로 구성되어 프로젝트를 완성시켜 나아갑니다. 4LEAF의 개발자는 여러분이 원하는 것들에 대해 충분히 만족시킬 준비가 되어있으며, 개발자로서 자긍심을 보유하고 있습니다."
+        "제한된 프로그래밍만 해온 개발자가 아닌, 풍부한 경험과 검증된 개발경험으로 프로페셔널한 개발자들로 구성되어 프로젝트를 완성시켜 나갑니다. 4LEAF의 개발자는 여러분이 원하는 것들에 대해 충분히 만족시킬 준비가 되어있으며, 개발자로서 자긍심을 보유하고 있습니다."
     },
     {
       title: "COMMUNICATION",
@@ -26,18 +26,30 @@ const LeftArea = () => {
     }
   ];
 
+  const [number, setNumber] = useState(0);
   return (
     <>
       <div className="box">
         <div className="box__top">
           <div className="logoArea">
-            <img className="box__top__logo" src={logo} alt="4LEAF LOGO" />
+            <img
+              className="box__top__logo"
+              src={logo}
+              alt="4LEAF LOGO"
+              onClick={() => (window.location.href = "/")}
+            />
           </div>
         </div>
 
         <div className="box__center">
           {txtData.map((data, index) => (
-            <TxtContent key={index} title={data.title} />
+            <TxtContent
+              key={index}
+              title={data.title}
+              content={number === index ? data.content : null}
+              setNumber={setNumber}
+              index={index}
+            />
           ))}
         </div>
       </div>
