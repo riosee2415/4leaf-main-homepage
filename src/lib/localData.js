@@ -54,7 +54,7 @@ const memberList = [
     email: "4leaf.ysh@gmail.com",
     birth: "900224",
     gender: "MALE",
-    remarks: "솔루션개발팀 (원딜러)",
+    remarks: "솔루션개발팀 (기획 담당)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -64,7 +64,7 @@ const memberList = [
     email: "4leaf.ldu@gmail.com",
     birth: "941225",
     gender: "MALE",
-    remarks: "정보화사업개발팀 (미드라이너)",
+    remarks: "정보화사업개발팀 (디자인 담당)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -74,7 +74,7 @@ const memberList = [
     email: "4leaf.ssm@gmail.com",
     birth: "950724",
     gender: "FEMALE",
-    remarks: "정보화사업개발팀 (탑라이너)",
+    remarks: "정보화사업개발팀 (총무 담당)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -84,7 +84,7 @@ const memberList = [
     email: "4leaf.khj@gmail.com",
     birth: "971015",
     gender: "FEMALE",
-    remarks: "솔루션개발팀 (서포터)",
+    remarks: "솔루션개발팀 (대외업무 담당)",
     careerList: ["경력1", "경력2"]
   },
   {
@@ -94,7 +94,7 @@ const memberList = [
     email: "4leaf.njm@gmail.com",
     birth: "971128",
     gender: "MALE",
-    remarks: "솔루션개발팀 (정글러)",
+    remarks: "솔루션개발팀 (사업 담당)",
     careerList: ["경력1", "경력2"]
   }
 ];
